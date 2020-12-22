@@ -68,9 +68,9 @@ ul {
   margin-bottom: 4px;
   display: flex;
 }
-/*cover Section*/
+
 .cover {
-  background: url(assets/bbb.png)no-repeat center center/ cover;
+    background: url(assets/bookbg.jpg)no-repeat center center/ cover;
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -78,7 +78,7 @@ ul {
   z-index: 10;
   padding: 15px;
   margin-bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("assets/bbb.png") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("assets/bookbg.jpg") ;
 }
 
 .text-search {
@@ -94,7 +94,6 @@ ul {
 }
 
 .search {
-  margin: 0px ;
   width: 95%;
   min-width: 100px;
   max-width: 900px;
@@ -111,14 +110,6 @@ ul {
 
 label {
   margin-left: 10px;
-}
-
-.search-input {
-  width: calc(100% - 80px);
-}
-
-.search input {
-  padding: 8px;
 }
 
 .button-input {
@@ -142,8 +133,31 @@ label {
 
 h1 {
   font-size: 25px;
-  margin-bottom: 10;
+  margin-bottom: 10px;
   padding-top: 100px;
   text-align: center;
   color: white;
 }
+
+h2 {
+  padding: 30px;
+  text-align: center;
+  color: #f17555; 
+}
+
+.steps {
+  margin-bottom: 60px;
+}
+
+.step {
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.step i {
+  font-size: 25px;
+}
+
