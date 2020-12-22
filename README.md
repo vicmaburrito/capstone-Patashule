@@ -1,6 +1,6 @@
 # Capstone-Patashule
 
-Build clone of newsweek.com home page on all screens
+Construction of the capstone project, a new concept based on the same Patashule design, consists of 3 pages, all of which are fully responsive.
 
 ![screenshot](./img.png)
 
@@ -24,10 +24,11 @@ Build clone of newsweek.com home page on all screens
 - Twitter: [@ManuelAldaraca](https://twitter.com/ManuelAldaraca) 
 - LinkedIn: https://www.linkedin.com/in/manuel-aldaraca 
 
-#### Contributions, issues and feature requests are welcome! Start by:
+## 🤝 Contributing
 
-- Push your branch up to your forked repository
-- Open a Pull Request with a detailed description to the development branch of the original project for a review
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
 
 ## Show your support
 
