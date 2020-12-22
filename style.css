@@ -1,0 +1,15 @@
+.navbar a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: #cd853f;
+}
+.navbar span{
+text-transform: uppercase;
+font-family:'Courier New', Courier, monospace ;
+font-weight: bold;
+font-size: 25px;
+}
+.img-wrapper{
+    background-color: red;
+}
