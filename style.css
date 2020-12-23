@@ -178,7 +178,15 @@ h2 {
     flex-flow: column;
     justify-content: space-around;
   }
+  .gallery-left h4{
+    font-size: 20px;
+    color: white;
+  }
+  .gallery-left p{
+  color: white;
+    font-size: 15px;
   
+  }
   .gallery-left button {
     padding: 8px;
     width: 160px;
@@ -194,8 +202,10 @@ h2 {
   }
   
   .gallery1 button {
-    color: hsl(18deg 100% 50%);
-    border: hsl(18deg 100% 50%);
+    color: #f17555;
+    border: none;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.2);
+
   }
   
   .gallery2 {
@@ -204,7 +214,9 @@ h2 {
   
   .gallery2 button {
     color: gray;
-    border: gray;
+    border: none;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
   }
   
   .gallery3 {
