@@ -56,7 +56,20 @@
   .tour-left {
     justify-content: center;
   }
+  .gallery-left {
+    width: 70%;
+    flex-flow: column;
+    justify-content: space-around;
+  }
+.gallery-left h4{
+  font-size: 30px;
+  color: white;
+}
+.gallery-left p{
+color: white;
+  font-size: 20px;
 
+}
 }
 
 @media only screen and (min-width:1024px) {  
@@ -108,4 +121,18 @@
     height: 300px;
   }
 
+  .gallery-left {
+    width: 70%;
+    flex-flow: column;
+    justify-content: space-around;
+  }
+  .gallery-left h4{
+    font-size: 30px;
+    color: white;
+  }
+  .gallery-left p{
+  color: white;
+    font-size: 20px;
+  
+  }
 }
