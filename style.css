@@ -230,3 +230,112 @@ h2 {
 .salmon{
     background-color: #f17555 ;
 }
+
+footer {
+  background-color: black;
+}
+
+.footer-top {
+  font-size: 9px;
+  padding: 0;
+  flex-flow: column;
+  padding-top: 20px;
+  background-color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.footer-top li {
+  border-top: 1px solid rgb(139, 139, 139, 0.2);
+  padding: 5px;
+  justify-content: space-between;
+}
+.line-below{
+border-bottom: 1px solid rgb(139, 139, 139, 0.2);
+}
+.footer-top a {
+  padding: 5px;
+  color: white;
+}
+
+.icom {
+  flex-direction: column;
+}
+
+.icom i {
+  color: white;
+  font-size: 50px;
+  border: white 1px solid;
+  padding: 15px 22px;
+  border-radius: 50%;
+}
+
+.footer-center {
+  flex-direction: column;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.footer-center div {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(139, 139, 139, 0.2);
+  padding-bottom: 20px;
+}
+
+.footer-center h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-bottom {
+  background-color: #212121;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  padding: 15px;
+  font-size: 10px;
+  flex-direction: column;
+}
+
+.subscribe input {
+  padding: 5px;
+  border: 1px solid rgb(139, 139, 139, 0.2);
+}
+
+.subscribe :first-child {
+  background-color: black;
+  border: 1px solid rgb(139, 139, 139, 0.2);
+  width: 150px;
+}
+
+.subscribe :last-child {
+  background-color: #1f1f1f;
+  border: 1px solid rgb(139, 139, 139, 0.2);
+  width: 50px;
+}
+
+.contact div p {
+
+  display: inline;
+
+}
+
+.contact div :first-child{
+  color: white;
+}
+
+.contact div :last-child {
+  color: #f17555
+}
+
+.about span a {
+  color: #f17555
+}
+.about p {
+  color: white;
+}
+.footer-bottom i {
+  padding: 4px;
+}
