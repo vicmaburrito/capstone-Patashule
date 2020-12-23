@@ -161,3 +161,60 @@ h2 {
   font-size: 25px;
 }
 
+
+.gallery {
+    padding: 15px;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .gallery-right {
+    width: 30%;
+    text-align: end;
+  }
+  
+  .gallery-left {
+    width: 70%;
+    flex-flow: column;
+    justify-content: space-around;
+  }
+  
+  .gallery-left button {
+    padding: 8px;
+    width: 160px;
+    border-radius: 10px;
+  }
+  
+  .gallery-right img {
+    max-height: 100%;
+    max-width: 100%;
+    padding-left: 5px;
+    border-radius: 50%;
+    padding-top: 15px;
+  }
+  
+  .gallery1 button {
+    color: hsl(18deg 100% 50%);
+    border: hsl(18deg 100% 50%);
+  }
+  
+  .gallery2 {
+    background-color: #98a5a5;
+  }
+  
+  .gallery2 button {
+    color: gray;
+    border: gray;
+  }
+  
+  .gallery3 {
+    background-color: #509cd8;
+  }
+  
+  .gallery3 img {
+    border-radius: 0%;
+    padding-top: 20px;
+  }
+.salmon{
+    background-color: #f17555 ;
+}
