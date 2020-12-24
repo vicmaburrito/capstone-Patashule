@@ -1,5 +1,4 @@
 @media only screen and (min-width: 768px) {
-
   h1 {
     font-size: 50px;
     margin-bottom: 10px;
@@ -56,113 +55,111 @@
   .tour-left {
     justify-content: center;
   }
+
   .gallery-left {
     width: 70%;
     flex-flow: column;
     justify-content: space-around;
   }
-.gallery-left h4{
-  font-size: 30px;
-  color: white;
-}
-.gallery-left p{
-color: white;
-  font-size: 20px;
 
-}
+  .gallery-left h4{
+    font-size: 30px;
+    color: white;
+  }
 
-
-.footer-center h3 {
-  font-size: 16px;
-  margin: 5;
+  .gallery-left p {
+    color: white;
+    font-size: 20px;
 }
 
-.footer-bottom p {
-  font-size: 10px;
+  .footer-center h3 {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .footer-bottom p {
+    font-size: 10px;
+  }
+
+  .footer-center div p {
+    font-size: 14px;
+  }
+
+  .footer-top {
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .footer-top li {
+    width: 100%;
+  }
+
+  li.icom {
+    position: relative;
+    width: 180px;
+  }
+
+  .icom i {
+    position: absolute;
+    top: -20px;
+    background-color: black;
+  }
+
+  .footer-center {
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 0;
+    margin-bottom: 35px;
+    flex-direction: row;
+  }
+
+  .footer-center div {
+    font-size: 12px;
+    border-bottom: 0;
+    width: 33%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  .contact div p {
+    margin-top: 0;
+  }
+
+  .contact div :first-child {
+    margin-bottom: 0;
+  }
+
+  .footer-bottom {
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+  }
+
+  .subscribe :first-child {
+    background-color: black;
+    border: 1px solid rgb(139, 139, 139, 0.2);
+    width: 150px;
+  }
+
+  .subscribe :last-child {
+    background-color: #1f1f1f;
+    border: 1px solid rgb(139, 139, 139, 0.2);
+    width: 50px;
+  }
+
 }
 
-.footer-center div p {
-  font-size: 14px;
-}
-
-.footer-top {
-  flex-flow: row;
-  justify-content: space-between;
-  padding-top: 40px;
-  margin-bottom: 20px;
-  font-size: 12px;
-}
-
-
-
-.footer-top li {
-  width: 100%;
-}
-
-li.icom {
-  position: relative;
-  width: 180px;
-}
-
-.icom i {
-  position: absolute;
-  top: -20px;
-  background-color: black;
-}
-
-.footer-center {
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-top: 0;
-  margin-bottom: 35px;
-  flex-direction: row;
-}
-
-.footer-center div {
-  font-size: 12px;
-  border-bottom: 0;
-  width: 33%;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  height: 100px;
-  justify-content: space-between;
-}
-
-.contact div p {
-  margin-top: 0;
-}
-
-.contact div :first-child {
-  margin-bottom: 0;
-}
-
-.footer-bottom {
-  flex-flow: row nowrap;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  justify-content: space-between;
-}
-.subscribe :first-child {
-  background-color: black;
-  border: 1px solid rgb(139, 139, 139, 0.2);
-  width: 150px;
-}
-
-.subscribe :last-child {
-  background-color: #1f1f1f;
-  border: 1px solid rgb(139, 139, 139, 0.2);
-  width: 50px;
-}
-
-
-
-}
 
 
 @media only screen and (min-width:1024px) {  
-
   h1 {
     font-size: 50px;
     margin-bottom: 20px;
@@ -205,7 +202,6 @@ li.icom {
     font-weight: 1000;
   }
 
-  
   .gallery {
     height: 300px;
   }
@@ -215,15 +211,17 @@ li.icom {
     flex-flow: column;
     justify-content: space-around;
   }
+
   .gallery-left h4{
     font-size: 30px;
     color: white;
   }
+
   .gallery-left p{
-  color: white;
+    color: white;
     font-size: 20px;
-  
   }
+
   .footer-bottom {
     padding-left: 20px;
     padding-right: 20px;
@@ -235,7 +233,7 @@ li.icom {
     border: 1px solid rgb(139, 139, 139, 0.2);
     width: 270px;
   }
-  
+
   .subscribe :last-child {
     background-color: #1f1f1f;
     border: 1px solid rgb(139, 139, 139, 0.2);
