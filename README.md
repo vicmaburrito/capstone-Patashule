@@ -1,6 +1,6 @@
 # Capstone-Patashule
 
-Construction of the capstone project, a new concept based on the same Patashule design, consists of 3 pages, all of which are fully responsive.
+Construction of the capstone project, a new concept based on the same Patashule design, consists of 1 page, all of which are fully responsive.
 
 ![screenshot](./img.png)
 
