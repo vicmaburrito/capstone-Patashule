@@ -70,7 +70,8 @@ ul {
 }
 
 .cover {
-    background: url(assets/bookbg.jpg)no-repeat center center/ cover;
+  background: 
+    url(assets/bookbg.jpg)no-repeat center center/ cover;
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -78,7 +79,9 @@ ul {
   z-index: 10;
   padding: 15px;
   margin-bottom: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("assets/bookbg.jpg") ;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("assets/bookbg.jpg") ;
 }
 
 .text-search {
@@ -115,7 +118,7 @@ label {
 .button-input {
   padding: 8px;
   border-radius: 8px;
-  border: none;
+  border: #f17555;
   font-weight: bold;
   background-color: #f17555; 
   color: white;
@@ -161,74 +164,75 @@ h2 {
   font-size: 25px;
 }
 
-
 .gallery {
-    padding: 15px;
-    height: 200px;
-    width: 100%;
-  }
-  
-  .gallery-right {
-    width: 30%;
-    text-align: end;
-  }
-  
-  .gallery-left {
-    width: 70%;
-    flex-flow: column;
-    justify-content: space-around;
-  }
-  .gallery-left h4{
-    font-size: 20px;
-    color: white;
-  }
-  .gallery-left p{
-  color: white;
-    font-size: 15px;
-  
-  }
-  .gallery-left button {
-    padding: 8px;
-    width: 160px;
-    border-radius: 10px;
-  }
-  
-  .gallery-right img {
-    max-height: 100%;
-    max-width: 100%;
-    padding-left: 5px;
-    border-radius: 50%;
-    padding-top: 15px;
-  }
-  
-  .gallery1 button {
-    color: #f17555;
-    border: none;
-    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  height: 200px;
+  width: 100%;
+} 
 
-  }
-  
-  .gallery2 {
-    background-color: #98a5a5;
-  }
-  
-  .gallery2 button {
-    color: gray;
-    border: none;
-    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.2);
-    font-size: 15px;
-  }
-  
-  .gallery3 {
-    background-color: #509cd8;
-  }
-  
-  .gallery3 img {
-    border-radius: 0%;
-    padding-top: 20px;
-  }
-.salmon{
-    background-color: #f17555 ;
+.gallery-right {
+  width: 30%;
+  text-align: end;
+}
+
+.gallery-left {
+  width: 70%;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.gallery-left h4 {
+  font-size: 20px;
+  color: white;
+}
+
+.gallery-left p {
+  color: white;
+  font-size: 15px;
+}
+
+.gallery-left button {
+  padding: 8px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.gallery-right img {
+  max-height: 100%;
+  max-width: 100%;
+  padding-left: 5px;
+  border-radius: 50%;
+  padding-top: 15px;
+}
+
+.gallery1 button {
+  color: #f17555;
+  border: none;
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.gallery2 {
+  background-color: #98a5a5;
+}
+
+.gallery2 button {
+  color: gray;
+  border: none;
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+}
+
+.gallery3 {
+  background-color: #509cd8;
+}
+
+.gallery3 img {
+  border-radius: 0%;
+  padding-top: 20px;
+}
+
+.salmon {
+  background-color: #f17555 ;
 }
 
 footer {
@@ -250,9 +254,11 @@ footer {
   padding: 5px;
   justify-content: space-between;
 }
-.line-below{
+
+.line-below {
 border-bottom: 1px solid rgb(139, 139, 139, 0.2);
 }
+
 .footer-top a {
   padding: 5px;
   color: white;
@@ -317,12 +323,10 @@ border-bottom: 1px solid rgb(139, 139, 139, 0.2);
 }
 
 .contact div p {
-
   display: inline;
-
 }
 
-.contact div :first-child{
+.contact div :first-child {
   color: white;
 }
 
@@ -333,9 +337,15 @@ border-bottom: 1px solid rgb(139, 139, 139, 0.2);
 .about span a {
   color: #f17555
 }
+
 .about p {
   color: white;
 }
+
 .footer-bottom i {
   padding: 4px;
+}
+
+.white {
+  color:white;
 }
