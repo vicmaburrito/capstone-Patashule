@@ -2,7 +2,7 @@
 
 Construction of the capstone project, a new concept based on the same Patashule design, consists of 1 page, all of which are fully responsive.
 
-![screenshot](./img.png)
+![screenshot](./img.jpeg)
 
 
 ## Built With
