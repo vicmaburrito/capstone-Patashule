@@ -71,7 +71,7 @@ ul {
 
 .cover {
   background: 
-    url(assets/bookbg.jpg)no-repeat center center/ cover;
+    url(../assets/bookbg.jpg)no-repeat center center/ cover;
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -81,7 +81,7 @@ ul {
   margin-bottom: 0;
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-    url("assets/bookbg.jpg") ;
+    url("../assets/bookbg.jpg") ;
 }
 
 .text-search {
