@@ -48,7 +48,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-  background-color: #f17555;
 }
 
 .logo {
@@ -92,10 +91,6 @@ ul {
   margin: auto;
 }
 
-.text-search .text {
-  color: white;
-}
-
 .search {
   width: 95%;
   min-width: 100px;
@@ -116,12 +111,11 @@ label {
 }
 
 .button-input {
-  padding: 8px;
-  border-radius: 8px;
+  padding: 6px;
+  border-radius: 6px;
   border: #f17555;
   font-weight: bold;
   background-color: #f17555; 
-  color: white;
 }
 
 .last-btn {
@@ -139,7 +133,6 @@ h1 {
   margin-bottom: 10px;
   padding-top: 100px;
   text-align: center;
-  color: white;
 }
 
 h2 {
@@ -183,11 +176,9 @@ h2 {
 
 .gallery-left h4 {
   font-size: 20px;
-  color: white;
 }
 
 .gallery-left p {
-  color: white;
   font-size: 15px;
 }
 
@@ -269,7 +260,6 @@ border-bottom: 1px solid rgb(139, 139, 139, 0.2);
 }
 
 .icom i {
-  color: white;
   font-size: 50px;
   border: white 1px solid;
   padding: 15px 22px;
@@ -293,7 +283,6 @@ border-bottom: 1px solid rgb(139, 139, 139, 0.2);
 .footer-center h3 {
   margin: 0;
   margin-bottom: 10px;
-  color: white;
 }
 
 .footer-bottom {
@@ -324,10 +313,6 @@ border-bottom: 1px solid rgb(139, 139, 139, 0.2);
 
 .contact div p {
   display: inline;
-}
-
-.contact div :first-child {
-  color: white;
 }
 
 .contact div :last-child {
