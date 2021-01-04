@@ -5,7 +5,7 @@
     padding-top: 100px;
     text-align: center;
     color: white;
-  }    
+  } 
 
   .navbar {
     flex-flow: row;
@@ -47,7 +47,6 @@
     grid-template-columns: 1fr 1fr;
   }
 
-
   .tour {
     height: 230px;
   }
@@ -62,7 +61,7 @@
     justify-content: space-around;
   }
 
-  .gallery-left h4{
+  .gallery-left h4 {
     font-size: 30px;
     color: white;
   }
@@ -70,7 +69,7 @@
   .gallery-left p {
     color: white;
     font-size: 20px;
-}
+  }
 
   .footer-center h3 {
     font-size: 16px;
@@ -127,14 +126,6 @@
     justify-content: space-between;
   }
 
-  .contact div p {
-    margin-top: 0;
-  }
-
-  .contact div :first-child {
-    margin-bottom: 0;
-  }
-
   .footer-bottom {
     flex-flow: row nowrap;
     align-items: center;
@@ -155,9 +146,15 @@
     width: 50px;
   }
 
+  .contact div p {
+    margin-top: 0;
+  }
+
+  .contact div :first-child {
+    margin-bottom: 0;
+  }
+
 }
-
-
 
 @media only screen and (min-width:1024px) {  
   h1 {
@@ -212,12 +209,12 @@
     justify-content: space-around;
   }
 
-  .gallery-left h4{
+  .gallery-left h4 {
     font-size: 30px;
     color: white;
   }
 
-  .gallery-left p{
+  .gallery-left p {
     color: white;
     font-size: 20px;
   }
@@ -240,8 +237,7 @@
     width: 80px;
   }
 
-  .about p{
+  .about p {
     font-size: 1px;
   }
-
 }
