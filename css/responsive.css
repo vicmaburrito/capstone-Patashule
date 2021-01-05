@@ -42,6 +42,11 @@
     color: black;
   }
 
+  .search :first-child {
+    padding-bottom: 10px;
+    text-align: start;
+  }
+
   .steps {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -155,12 +160,7 @@
   }
 
   .searchbykey {
-  flex-direction: row;
-  }
-
-  .search :first-child {
-  padding-bottom: 10px;
-  text-align: start;
+    flex-direction: row;
   }
 }
 
@@ -250,11 +250,11 @@
   }
 
   .searchbykey {
-  flex-direction: row;
+    flex-direction: row;
   }
 
   .search :first-child {
-  padding-bottom: 10px;
-  text-align: start;
+    padding-bottom: 10px;
+    text-align: start;
   }
 }
