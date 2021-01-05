@@ -100,11 +100,6 @@ ul {
   border-radius: 10px;
 }
 
-.search :first-child {
-  padding-bottom: 10px;
-  text-align: start;
-}
-
 label {
   margin-left: 10px;
 }
@@ -115,6 +110,10 @@ label {
   border: #f17555;
   font-weight: bold;
   background-color: #f17555;
+}
+
+.searchbykey {
+  flex-direction: column;
 }
 
 .last-btn {
