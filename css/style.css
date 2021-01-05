@@ -332,3 +332,71 @@ footer {
 .white {
   color: white;
 }
+
+/*search.html*/
+
+.prenda{
+  margin-top: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+main .box-form {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box-form{
+  padding: 7px;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.prenda input{
+font-size: 13px;
+margin-left: 10px;
+}
+
+.descfilters{
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+}
+
+.txtupfilter {
+font-weight: bold;
+color: rgba(111,111, 120, 0.6);
+text-align: center;
+}
+
+.filters {
+padding: 10px;
+flex-direction: row;
+}
+
+.select-content{
+margin-top: 23px;
+padding-left: 10px;
+}
+
+.button-content {
+flex-direction: column;
+margin-top: 50px;
+padding-left: 10px;
+}
+
+.clearbtn {
+background-color: #FFDB58;
+border: 1px solid yellow;
+}
+
+.contform {
+  flex-flow: column;
+}
+
+.searchbtn {
+border: 1px solid blue;
+background-color:#1d6bd1 ;
+}
