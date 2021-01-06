@@ -339,7 +339,7 @@ footer {
   text-align: left;
 }
 
-main .box-form {
+.box-form {
   padding: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -365,7 +365,7 @@ main .box-form {
 
 .txtupfilter {
   font-weight: bold;
-  color: rgba(111,111, 120, 0.6);
+  color: rgba(111, 111, 120, 0.6);
   text-align: center;
 }
 
@@ -383,10 +383,11 @@ main .box-form {
   flex-direction: column;
   margin-top: 50px;
   padding-left: 10px;
+  display: block;
 }
 
 .clearbtn {
-  background-color: #FFDB58;
+  background-color: #ffdb58;
   border: 1px solid yellow;
 }
 
@@ -396,5 +397,5 @@ main .box-form {
 
 .searchbtn {
   border: 1px solid blue;
-  background-color:#1d6bd1 ;
+  background-color: #1d6bd1;
 }
