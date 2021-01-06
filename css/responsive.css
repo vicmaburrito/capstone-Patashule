@@ -174,9 +174,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .box-form {
     padding: 7px;
     margin-top: 10%;
     font-weight: bold;
@@ -194,9 +191,9 @@
   }
 
   .txtupfilter {
-  font-weight: bold;
-  color: rgba(111,111, 120, 0.6);
-  text-align: center;
+    font-weight: bold;
+    color: rgba(111, 111, 120, 0.6);
+    text-align: center;
   }
 
   .filters {
@@ -204,8 +201,8 @@
   }
 
   .select-content {
-  margin-top: 23px;
-  padding-left: 10px;
+    margin-top: 23px;
+    padding-left: 10px;
   }
 
   .button-content {
@@ -228,8 +225,8 @@
   }
 
   .searchbtn {
-  border: 1px solid blue;
-  background-color:#1d6bd1;
+    border: 1px solid blue;
+    background-color: #1d6bd1;
   }
 }
 
@@ -327,10 +324,6 @@
     text-align: start;
   }
 
-  .searchbykey {
-    flex-direction: row;
-  }
-
   .prenda {
     margin-top: 22px;
     width: 180px;
@@ -342,9 +335,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .box-form {
     padding: 7px;
     margin-top: 10%;
     font-weight: bold;
@@ -363,7 +353,7 @@
 
   .txtupfilter {
     font-weight: bold;
-    color: rgba(111,111, 120, 0.6);
+    color: rgba(111, 111, 120, 0.6);
     text-align: center;
   }
 
@@ -397,6 +387,6 @@
 
   .searchbtn {
     border: 1px solid blue;
-    background-color:#1d6bd1;
+    background-color: #1d6bd1;
   }
 }
