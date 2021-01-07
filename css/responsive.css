@@ -248,13 +248,14 @@
     display: flex;
     color: #fff;
     position: absolute;
-    margin-top: 65px;
+    margin-top: 115px;
+    margin-left: 75px;
   }
 
   .front span {
     font-size: 17px;
     text-transform: uppercase;
-    text-align: center;
+    z-index: 2;
   }
 
   .yuyman {
@@ -262,7 +263,10 @@
     font-size: 150px;
     color: #e46f52;
     margin-left: 100px;
-    z-index: 2;
+  }
+
+  .descfront {
+    font-weight: bold;
   }
 }
 
@@ -445,13 +449,14 @@
     display: flex;
     color: #fff;
     position: absolute;
-    margin-top: 65px;
+    margin-top: 110px;
+    margin-left: 85px;
   }
 
   .front span {
     font-size: 25px;
     text-transform: uppercase;
-    text-align: center;
+    z-index: 2;
   }
 
   .yuyman {
@@ -460,5 +465,9 @@
     color: #e46f52;
     margin-left: 120px;
     z-index: 2;
+  }
+
+  .descfront {
+    font-weight: bold;
   }
 }
