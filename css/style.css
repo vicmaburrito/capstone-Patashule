@@ -401,12 +401,12 @@ footer {
   height: 200px;
   border-radius: 10px;
   margin-top: 25px;
-  margin-left: 5px; 
+  margin-left: 5px;
   margin-bottom: 20px;
 }
 
 .card {
-  background-color: #d95f4c ;
+  background-color: #d95f4c;
   height: 100%;
   border-radius: 10px;
   width: 100%;
@@ -416,7 +416,7 @@ footer {
 .front {
   display: flex;
   color: #fff;
-  position: absolute; 
+  position: absolute;
   margin-top: 28px;
 }
 
@@ -431,5 +431,5 @@ footer {
   font-size: 85px;
   color: #e46f52;
   margin-left: 40px;
-  z-index:2;
+  z-index: 2;
 }
