@@ -231,7 +231,6 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 650px;
     height: 320px;
-    border-radius: 10px;
     margin-top: 45px;
     margin-left: 55px;
   }
@@ -240,7 +239,6 @@
     display: flex;
     background-color: #d95f4c;
     height: 100%;
-    border-radius: 10px;
     width: 100%;
     justify-content: space-between;
     margin: 10px;
@@ -430,7 +428,6 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 850px;
     height: 320px;
-    border-radius: 10px;
     margin-top: 45px;
     margin-left: 250px;
   }
@@ -439,7 +436,6 @@
     display: flex;
     background-color: #d95f4c;
     height: 100%;
-    border-radius: 10px;
     width: 100%;
     justify-content: space-between;
     margin: 10px;
