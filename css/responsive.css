@@ -225,6 +225,47 @@
     border: 1px solid blue;
     background-color: #1d6bd1;
   }
+
+  .card-container {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
+    height: 320px;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 55px; 
+}
+
+  .card {
+    display: flex ;
+    background-color: #d95f4c ;
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+  .front {
+    display: flex;
+    color: #fff;
+    position: absolute; 
+    margin-top: 65px;
+  }
+
+  .front span {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .yuyman {
+    margin-top: 75px;
+    font-size: 150px;
+    color: #e46f52;
+    margin-left: 100px;
+    z-index:2;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -382,5 +423,46 @@
   .searchbtn {
     border: 1px solid blue;
     background-color: #1d6bd1;
+  }
+
+  .card-container {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 850px;
+    height: 320px;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 250px; 
+}
+
+  .card {
+    display: flex ;
+    background-color: #d95f4c ;
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+  .front {
+    display: flex;
+    color: #fff;
+    position: absolute; 
+    margin-top: 65px;
+  }
+
+  .front span {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .yuyman {
+    margin-top: 45px;
+    font-size: 200px;
+    color: #e46f52;
+    margin-left: 120px;
+    z-index:2;
   }
 }

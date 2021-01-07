@@ -393,3 +393,43 @@ footer {
   border: 1px solid blue;
   background-color: #1d6bd1;
 }
+
+.card-container {
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: 5px; 
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #d95f4c ;
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+.front {
+  display: flex;
+  color: #fff;
+  position: absolute; 
+  margin-top: 28px;
+}
+
+.front span {
+  font-size: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.yuyman {
+  margin-top: 45px;
+  font-size: 85px;
+  color: #e46f52;
+  margin-left: 40px;
+  z-index:2;
+}
