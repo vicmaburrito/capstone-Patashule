@@ -415,13 +415,14 @@ footer {
   display: flex;
   color: #fff;
   position: absolute;
-  margin-top: 28px;
+  margin-top: 70px;
+  margin-left: 6px;
 }
 
 .front span {
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
-  text-align: center;
+  z-index: 2;
 }
 
 .yuyman {
@@ -429,5 +430,8 @@ footer {
   font-size: 85px;
   color: #e46f52;
   margin-left: 40px;
-  z-index: 2;
+}
+
+.descfront {
+  font-weight: bold;
 }
