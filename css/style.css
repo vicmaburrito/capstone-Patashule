@@ -313,6 +313,10 @@ footer {
   width: 50px;
 }
 
+.more-details p {
+  font-size: 15px;
+}
+
 .contact div :last-child {
   color: #f17555;
 }
@@ -532,10 +536,6 @@ footer {
 .more-details {
   margin-top: 20px;
   margin-left: 10px;
-}
-
-.more-details p {
-  font-size: 15px;
 }
 
 .map-vinta {
