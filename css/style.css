@@ -464,26 +464,23 @@ footer {
 
 .form-tables {
   margin-bottom: 15px;
-  border: 1px solid  rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .form-tables input {
   font-size: 15px;
   color: #1d6bd1;
+  width: 150px;
 }
 
 .form-tables label {
   font-size: 15px;
 }
 
-.form-tables input {
-  width: 150px;
-}
-
 .box-form-details {
   margin: 12px;
   background-color: #ffff;
-  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 .snt-pete {
@@ -492,7 +489,7 @@ footer {
 }
 
 .snt-pete i {
-  font-size:35px; 
+  font-size: 35px;
 }
 
 .snt-pete span {
@@ -507,4 +504,27 @@ footer {
 
 .btn-apply i {
   padding-right: 7px;
+}
+
+.yussna-ic {
+  font-size: 16px;
+  padding-right: 4px;
+  color: #1d6bd1;
+}
+
+.custo {
+  font-size: 16px;
+  height: 20px;
+  width: 20%;
+}
+
+.custo-btm {
+  font-size: 16px;
+  height: 20px;
+  width: 70%;
+}
+
+.inf-form {
+  flex-direction: column;
+  padding: 15px;
 }
