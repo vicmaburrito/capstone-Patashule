@@ -268,6 +268,62 @@
   .descfront {
     font-weight: bold;
   }
+
+  .form-details {
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+  }
+
+  .input-style {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px dashed black;
+    width: 500px;
+  }
+
+  .label-content {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .btn-form-details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-tables {
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .form-tables input {
+    width: 240px;
+  }
+
+  .box-form-details {
+    margin: 100px;
+    background-color: #ffff;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .table-mobile-td {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .snt-pete {
+    padding-bottom: 9px;
+  }
+
+  .snt-pete i {
+    font-size:45px;
+  }
+
+  .snt-pete span {
+    font-size: 39px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -476,52 +532,54 @@
     margin: 20px;
     justify-content: center;
   }
-  
+
   .input-style {
     background-color: rgba(0, 0, 0, 0.1);
     border-bottom: 1px dashed black;
     width: 500px;
   }
-  
+
   .label-content {
     padding-top: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 13px;0
+    font-size: 13px;
   }
-  
+
   .btn-form-details {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+
   .form-tables {
     margin-bottom: 15px;
-    border: 1px solid  rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .form-tables label{
-  }
-  .form-tables input{
+
+  .form-tables input {
     width: 500px;
   }
+
   .box-form-details {
     margin: 100px;
     background-color: #ffff;
     box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.2);
-    }
+  }
 
   .table-mobile-td {
     padding-left: 25px;
     padding-right: 25px;
-    }
-    .snt-pete {
-      padding-bottom: 9px;
-    }
-    .snt-pete i{
-      margin-left: px;
-      font-size:45px; 
-    }
-    .snt-pete span {
-      font-size: 39px;
-    }
+  }
+
+  .snt-pete {
+    padding-bottom: 9px;
+  }
+
+  .snt-pete i {
+    font-size:45px;
+  }
+
+  .snt-pete span {
+    font-size: 39px;
+  }
 }
